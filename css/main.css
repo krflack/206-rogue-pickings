@@ -181,7 +181,7 @@ footer span {
 }
 
 /*---------------TABLET-------------------*/
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
 	.bottom-section {
 		flex-flow: row;
 		justify-content: center;
@@ -197,7 +197,7 @@ footer span {
 }
 
 /*--------------DESKTOP---------------------*/
-@media (min-width: 1200px) {
+@media all and (min-width: 1200px) {
 	header h1 {
 		border-bottom: none;
 		justify-content: flex-start;
@@ -209,7 +209,7 @@ footer span {
 	}
 	header nav {
 		width: 50%;
-		justify-content: flex-end;
+		text-align: right; 
 		padding-right: 10px;
 	}
 	header nav ul li {
